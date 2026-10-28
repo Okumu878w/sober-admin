@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export function NotFound(){return <div className="state"><h1>Page not found</h1><p>That administration page does not exist.</p><Link className="text-link" to="/dashboard">Return to dashboard</Link></div>}
